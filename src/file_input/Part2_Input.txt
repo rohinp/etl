@@ -1,0 +1,4 @@
+This is amazing text
+Just to check repeated words
+is the app counting text for repeated words
+check in the out put file
