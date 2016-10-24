@@ -13,7 +13,7 @@ Records are data structures which carry data in (ColumnName,Value) tuple (check 
 
 Using these Operation abstractions, Component objects are made.
 More component can be added based on the current operation abstractions.
-More Operations can also be added if required where current operations dont sufise the Components requirement.
+More Operations can also be added if required where current operations don't suffice the Components requirement.
 
 ETL integration tests contains the Part1 and Part2 implementation of the assignment.
 
