@@ -2,7 +2,7 @@ package com.inter.etl
 
 import scala.io.Source._
 import java.nio.file.{Paths, Files, StandardOpenOption}
-import java.nio.charset.{StandardCharsets}
+import java.nio.charset.StandardCharsets
 import java.io.File
 
 trait Operation0[I,O] extends ((I) => O)

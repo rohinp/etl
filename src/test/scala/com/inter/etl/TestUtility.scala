@@ -2,9 +2,6 @@ package com.inter.etl
 
 import java.io.File
 
-/**
-  * Created by rohinp on 10/24/2016.
-  */
 abstract class TestUtility {
   val root_path = new File(".").getCanonicalPath
 
