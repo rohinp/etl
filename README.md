@@ -1,23 +1,20 @@
-# Simple ETL process
+# The is a WIP ETL library which takes input data and provides basic operations which can be performed
 
-## Walk through of the code
+## The Idea is
 
-Operations are the basic unit for abstracting the different transformations on data
-To keep it simple there are three types of Operation
+1. Operations like filter, group, transform on data
+2. Data can be defined based on schema
+3. Error handling can be done as short circuit or collect the errors as values
+4. No dependecies on any external library
+5. Operations can be performed concurrently by using the users fav lib.
+6. Choosing the effects must the the users choice
+7. Adding new operations must be easy
+8. Works only on inmemory data 
+9. clean logging provision both on success and faliure operations
 
-1. (Records) => Records
-2. (InputFilePath) => Records
-3. (Records,OutputFilePath) => Unit
 
-Note: #1 and #2 fall under (I) => O Operation0 trait implementation
 
-Records are data structures which carry data in Field, (ColumnName,Value) tuple (check package object and Record trait)
 
-Using these Operation abstractions, Component objects are made.
-More component can be added based on the current operation abstractions.
-More Operations can also be added if required where current operations don't suffice the Components requirement.
-
-ETL integration tests contains the Part1 and Part2 implementation of the assignment (check the tests).
 
 
 

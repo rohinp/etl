@@ -1,3 +1,0 @@
-this is some sample data
-Just to check if it
-is working fine
